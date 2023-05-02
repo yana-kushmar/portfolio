@@ -1,0 +1,34 @@
+.skillsWrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.title {
+    background-color: grey;
+    padding: 8px;
+    margin-bottom: 64px;
+}
+
+.skills {
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+    .skillsWrapper {
+        height: auto;
+    }
+    .skills {
+        justify-content: center;
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+    .title {
+        margin: 32px 0;
+    }
+}

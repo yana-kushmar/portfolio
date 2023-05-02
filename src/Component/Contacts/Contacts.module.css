@@ -1,0 +1,37 @@
+.contactsWrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: linen;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: lightpink;
+    padding: 8px;
+    margin-bottom: 64px;
+}
+
+.button {
+    margin-top: 64px;
+    border: none;
+    padding: 8px 16px;
+    background-color: gold;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contactsWrapper {
+        height: auto;
+
+    }
+
+    .title {
+        margin: 32px;
+    }
+    .button {
+        margin: 32px 0;
+    }
+}

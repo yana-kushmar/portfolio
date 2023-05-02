@@ -1,0 +1,32 @@
+.footerWrapper {
+    height: 200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.media {
+    display: flex;
+    gap: 64px;
+
+}
+
+.media img {
+    height: 60px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .footerWrapper {
+        height: auto;
+    }
+
+    .media {
+       gap: 32px;
+    }
+    .media img {
+        height: 30px;
+    }
+}

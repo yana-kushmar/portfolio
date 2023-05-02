@@ -1,0 +1,20 @@
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: aquamarine;
+    padding: 24px 12px;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: lightpink;
+}
+
+.description {
+    text-align: center;
+
+}

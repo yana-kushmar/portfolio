@@ -1,0 +1,40 @@
+.projectsWrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+
+
+}
+
+.title {
+
+    background-color: lightpink;
+    padding: 8px;
+    margin-bottom: 64px;
+
+}
+
+.projects {
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+    .projectsWrapper {
+        height: auto;
+
+    }
+
+    .projects {
+        justify-content: center;
+        margin-bottom: 32px;
+        gap: 32px;
+    }
+    .title {
+        margin: 32px;
+    }
+}
